@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+    --daniel-clifford: #733FC7;
+    --jonathan-walters: #49556A;
+    --kira-whittle: #FFFFFF;
+    --patrick-abrams:#1A212F;
+
+    --fonte-pattern: sans-serif;
+    --fonte-main: 'Barlow Semi Condensed', sans-serif;; 
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 12px; text-align: left;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+main.principal-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Opening comment Daniel  */
+    aside#daniel {
+    display: flex;  
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    line-height: 1.2;
+}
+
+img {
+    border: 3px solid #8559BA;
+    border-radius: 50%;
+}
+
+.div-daniel-clifford h4 {
+    color: white;
+    
+}
+
+.div-daniel-clifford span {
+    color: #a273f3;
+    opacity: 100%;
+}
+
+
+.texth3-daniel-clifford {
+    display: flex;  
+    align-items: center; 
+    gap: 15px;
+    width: 235px;
+    margin: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.p-daniel-clifford {
+    display: flex;  
+    align-items: center; 
+    gap: 15px;
+    width: 235px;
+    margin: 20px;
+    height: 200px;
+    text-align: left;
+    color: #a273f3;
+    opacity: 100%;
+    font-family: var(--fonte-main);
+}
+
+.daniel-clifford {
+    background: var(--daniel-clifford);
+    width: 300px;
+    height: 490px;   
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: var(--fonte-main);
+    line-height: 20px;
+}
+
+/*  Closing comment Daniel */
+
+/* Opening commentary Jonathan Walters */
+
+
+aside#jonathan-walters {
+    display: flex;  
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    line-height: 1.2;
+}
+
+.jonathan-walters {
+    background: var(--jonathan-walters);
+    width: 300px;
+    height: 220px;   
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.div-jonathan-walters h4 {
+    color: white;
+}
+
+.div-jonathan-walters span {
+    color: #7588a8;
+    opacity: 100%;
+}
+
+.text3-jonathan-walters {
+    display: flex;  
+    align-items: center; 
+    width: 235px;
+    margin: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--fonte-main);
+}
+
+.p-jonathan-walters {
+    display: flex;  
+    align-items: center;
+    color: #acc1e6;;
+    width: 274px;
+    margin: 20px;
+    opacity: 100%;
+    font-family: var(--fonte-main);
+}
+
+/* Opening commentary Jonathan Walters */
+
+.jeanette-harmon {
+    background: var(--kira-whittle);
+    width: 80%;
+    margin: 10px;
+}
+
+.kira-whittle {
+    background: var(--kira-whittle);
+    width: 80%;
+    margin: 10px;
+}
+
+.patrick-abrams {
+    background: var(--patrick-abrams);
+    width: 80%;
+    margin: 10px;
+}
