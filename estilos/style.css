@@ -11,16 +11,19 @@
     --daniel-clifford: #733FC7;
     --jonathan-walters: #49556A;
     --kira-whittle: #FFFFFF;
-    --patrick-abrams:#1A212F;
+    --patrick-abrams: #1A212F;
 
     --fonte-pattern: sans-serif;
-    --fonte-main: 'Barlow Semi Condensed', sans-serif;; 
+    --fonte-main: 'Barlow Semi Condensed', sans-serif;
+    ;
 }
 
-body, html{
+body,
+html {
     width: 100vw;
     height: 100vh;
-    font-size: 12px; text-align: left;
+    font-size: 12px;
+    text-align: left;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -30,15 +33,17 @@ main.principal-flex {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #ECF2F7;
 }
 
-  /* Opening comment Daniel  */
-    aside#daniel {
-    display: flex;  
+/* Opening */
+aside#daniel {
+    display: flex;
     align-items: center;
     gap: 15px;
     margin: 20px;
     line-height: 1.2;
+    
 }
 
 img {
@@ -48,7 +53,7 @@ img {
 
 .div-daniel-clifford h4 {
     color: white;
-    
+
 }
 
 .div-daniel-clifford span {
@@ -58,8 +63,8 @@ img {
 
 
 .texth3-daniel-clifford {
-    display: flex;  
-    align-items: center; 
+    display: flex;
+    align-items: center;
     gap: 15px;
     width: 235px;
     margin: 20px;
@@ -69,8 +74,8 @@ img {
 }
 
 .p-daniel-clifford {
-    display: flex;  
-    align-items: center; 
+    display: flex;
+    align-items: center;
     gap: 15px;
     width: 235px;
     margin: 20px;
@@ -84,21 +89,22 @@ img {
 .daniel-clifford {
     background: var(--daniel-clifford);
     width: 300px;
-    height: 490px;   
+    height: 490px;
     margin: 15px;
     padding: 15px;
     border-radius: 15px;
     font-family: var(--fonte-main);
     line-height: 20px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.288);
 }
 
-/*  Closing comment Daniel */
+/*  Closing  */
 
-/* Opening commentary Jonathan Walters */
+/* Opening  */
 
 
 aside#jonathan-walters {
-    display: flex;  
+    display: flex;
     align-items: center;
     gap: 15px;
     margin: 20px;
@@ -108,10 +114,11 @@ aside#jonathan-walters {
 .jonathan-walters {
     background: var(--jonathan-walters);
     width: 300px;
-    height: 220px;   
+    height: 220px;
     margin: 15px;
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.288);
 }
 
 .div-jonathan-walters h4 {
@@ -124,8 +131,8 @@ aside#jonathan-walters {
 }
 
 .text3-jonathan-walters {
-    display: flex;  
-    align-items: center; 
+    display: flex;
+    align-items: center;
     width: 235px;
     margin: 20px;
     color: hsl(0, 0%, 100%);
@@ -135,31 +142,175 @@ aside#jonathan-walters {
 }
 
 .p-jonathan-walters {
-    display: flex;  
+    display: flex;
     align-items: center;
-    color: #acc1e6;;
+    color: #acc1e6;
+    ;
     width: 274px;
     margin: 20px;
     opacity: 100%;
     font-family: var(--fonte-main);
 }
 
-/* Opening commentary Jonathan Walters */
+/*  Closing  */
+
+/* Opening  */
 
 .jeanette-harmon {
     background: var(--kira-whittle);
-    width: 80%;
-    margin: 10px;
+    width: 78%;
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.288);
 }
 
-.kira-whittle {
-    background: var(--kira-whittle);
-    width: 80%;
-    margin: 10px;
+aside#janette-harmon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    line-height: 1.2;
 }
+
+.div-jeanette-harmon h4 {
+    color: #78797F;
+}
+
+.div-jeanette-harmon span {
+    color: #a5a6ac;
+    opacity: 100%;
+}
+
+
+.text3-jeanette-harmon {
+    display: flex;
+    align-items: center;
+    width: 235px;
+    margin: 20px;
+    color: #78797F;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--fonte-main);
+}
+
+.p-jeanette-harmon {
+    display: flex;
+    align-items: center;
+    color: #acc1e6;
+    width: 274px;
+    margin: 20px;
+    opacity: 100%;
+    font-family: var(--fonte-main);
+}
+
+/*  Closing  */
+
+/* Opening  */
+
+aside#patrick-abrams {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    line-height: 1.2;
+    color: var(--kira-whittle);
+}
+
 
 .patrick-abrams {
     background: var(--patrick-abrams);
-    width: 80%;
+    width: 86%;
+    height: 360px;
     margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.288);
 }
+
+.div-patrick-abrams h4 {
+    color: var(--kira-whittle);
+}
+
+.div-patrick-abrams span {
+    color: rgb(179, 179, 179);
+    opacity: 100%;
+}
+
+
+.text3-patrick-abrams {
+    display: flex;
+    align-items: center;
+    width: 235px;
+    margin: 20px;
+    color: var(--kira-whittle);
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--fonte-main);
+}
+
+.p-patrick-abrams {
+    display: flex;
+    align-items: center;
+    color: rgb(158, 158, 158);
+    width: 274px;
+    margin: 20px;
+    opacity: 100%;
+    font-family: var(--fonte-main);
+}
+
+
+/* Closing */
+
+/* Opening  */
+
+aside#kira-whittle {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    line-height: 1.2;
+    color: #b5bec9;
+}
+
+
+.kira-whittle {
+    background: var(--kira-whittle);
+    width: 86%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.288);
+}
+
+.div-kira-whittle h4 {
+    color: #595c5f;
+}
+
+.div-kira-whittle span {
+    color: #0f468a;
+    opacity: 100%;
+}
+
+
+.text3-kira-whittle {
+    display: flex;
+    align-items: center;
+    width: 235px;
+    margin: 20px;
+    color: #595c5f;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--fonte-main);
+}
+
+.p-kira-whittle {
+    display: flex;
+    align-items: center;
+    color: #9ea5ac;
+    width: 274px;
+    margin: 20px;
+    opacity: 100%;
+    font-family: var(--fonte-main);
+}
+    /*  Closing  */
